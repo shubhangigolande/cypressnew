@@ -1,0 +1,135 @@
+what is software testing?
+
+Software Testing is a method to check whether the actual software product matches expected requirements and to ensure that software product is Defect free. 
+It involves execution of software/system components using manual or automated tools to evaluate one or more properties of interest. The purpose of software testing
+ is to identify errors, gaps or missing requirements in contrast to actual requirements.
+Software Testing means the Verification of Application Under Test (AUT). 
+
+
+Why Software Testing is Important?
+Software Testing is Important because if there are any bugs or errors in the software, it can be identified early and can be solved before delivery of the 
+software product. Properly tested software product ensures reliability, security and high performance which further results in time saving, cost effectiveness 
+and customer satisfaction.
+
+
+What is the need of Testing?
+Testing is important because software bugs could be expensive or even dangerous. Software bugs can potentially cause monetary and human loss, and history is full 
+of such examples.
+eg:-Some of Amazon’s third-party retailers saw their product price is reduced to 1p due to a software glitch. They were left with heavy losses.
+
+
+
+What are the benefits of Software Testing?
+Here are the benefits of using software testing:
+
+Cost-Effective: It is one of the important advantages of software testing. Testing any IT project on time helps you to save your money for the long term. 
+In case if the bugs caught in the earlier stage of software testing, it costs less to fix.
+
+Security: It is the most vulnerable and sensitive benefit of software testing. People are looking for trusted products.It helps in removing risks and problems earlier.
+
+Product quality: It is an essential requirement of any software product. Testing ensures a quality product is delivered to customers.
+
+Customer Satisfaction: The main aim of any product is to give satisfaction to their customers. UI/UX Testing ensures the best user experience.
+
+
+
+Types of Software Testing
+Here are the software testing types:
+
+Typically Testing is classified into three categories.
+
+Functional Testing
+Non-Functional Testing or Performance Testing
+Maintenance (Regression and Maintenance)
+
+Types of Software Testing in Software Engineering
+
+
+Testing Category	Types of Testing
+Functional Testing	
+			Unit Testing
+			Integration Testing
+			Smoke
+			UAT ( User Acceptance Testing)
+			Localization
+			Globalization
+			Interoperability
+			So on
+
+Non-Functional Testing	
+			Performance
+			Endurance
+			Load
+			Volume
+			Scalability
+			Usability
+			So on
+
+Maintenance	
+			Regression
+			Maintenance
+
+
+
+What SDLC?
+Software Development Life Cycle (SDLC) defines all the standard phases which are involved during the software development process. SDLC life cycle is a process of developing software through a phased manner in the following order
+
+Requirements Gathering
+Design the software
+Build the Software
+Test
+Deployment
+Maintenance.
+
+
+What is STLC?
+Software Testing Life Cycle (STLC) is the testing process that is executed in a well-planned manner. In the STLC process, various activities are carried out to improve the quality of the product. However, STLC phases only deal with testing and detecting errors but not development itself.
+
+Different companies define different phases in STLC. However, generic Software Test Life Cycle has the following stages.
+
+Requirement Analysis
+Test Planning
+Test Development
+Test Environment Setup
+Test Execution & Closure
+
+
+Black Box Testing vs White Box Testing: Key Difference
+
+Black Box Testing:-
+1> Black Box, testing is done without the knowledge of the internal structure of program or application
+
+2> Black Box test doesn’t require programming knowledge
+
+3> Black Box testing has the main goal to test the behavior of the software 
+
+4> Black Box testing is focused on external or end-user perspective
+
+5> Black Box test provides low granularity reports
+
+6> Black Box testing is a not time-consuming process
+
+
+
+
+White Box Testing:-
+1> White Box, testing is done with knowledge of the internal structure of program.
+
+2> the White Box test requires programming knowledge.
+
+3> White Box testing has the main goal to test the internal operation of the system
+
+4> White Box testing is focused on code structure, conditions, paths and branches.
+
+5> White Box test provides high granularity reports
+
+6> White Box testing is a time-consuming process.
+
+
+
+
+What is Regression Testing?
+Regression Testing is defined as a type of software testing to confirm that a recent program or code change has not adversely affected existing features. Regression Testing is nothing but a full or partial selection of already executed test cases that are re-executed to ensure existing functionalities work fine.
+
+This testing is done to ensure that new code changes do not have side effects on the existing functionalities. It ensures that the old code still works once the latest code changes are done
+

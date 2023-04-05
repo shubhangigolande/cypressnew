@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Mahesh Aher",
+        "Email": "ABC@gmail.com",
+        "msg": "I am New in Cypress",
+        "Smsg": "Form submitted successfully."
+    },
+
+    {
+        "name": "Akash Aher",
+        "Email": "xyz@gmail.com",
+        "msg": "I am New in JS",
+        "Smsg": "Form submitted successfully."
+    }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "cypresstc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "9.7",
+    "npx": "^10.2.2"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhangigolande/cypresstc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shubhangigolande/cypresstc/issues"
+  },
+  "homepage": "https://github.com/shubhangigolande/cypresstc#readme",
+  "description": ""
+}

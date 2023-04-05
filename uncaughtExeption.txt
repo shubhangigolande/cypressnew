@@ -1,0 +1,12 @@
+Cypress.on('uncaught:exception',(err,runnable)=>{
+return false
+})
+
+
+{
+    "animationDistanceThreshold":10
+}
+
+{ "chromeWebSecurity": false }
+
+

@@ -1,0 +1,36 @@
+npm init           ==>create file .json file
+npm install cypress@9.7     ==> to install the cypress
+npm install npx             ==>
+npx cypress open        ==>to open cypress
+
+npx cypress open   ===>open cypress test runner
+npx cypress run    ==> run test cases in command line  (cli)
+
+
+Cypress is one of those popular tools which has established its place very quickly and is very popular for
+ Web integration and End to End UI test automation. This series of tutorials will take you through the in's 
+ and out's of Cypress and will guide step by step for setup and usage of the tool.
+ It is a next-generation front end testing tool constructed for the modern web. 
+ It is built on Node.js and comes packaged as an npm module. As its basis is Node.js, 
+ it uses JavaScript for writing tests. 
+
+ folders:=
+
+   1.Fixtures – Fixtures are used to store test data which can then be used throughout the tests.
+                Usually, the data is stored in JSON format.
+  2. Integration – Integration folder includes all the test files. The test files may be written 
+                     as .js, .jsx, .coffee and .cjsx. Usually the preferred extension is .js and the test 
+                     file name format is test-name.spec.js.
+  3. Plugins – This folder includes index.js file. This file will be automatically imported every 
+                time before the execution of every spec(test) file. Plugins enable you to tap into, modify,
+                or extend the internal behavior of Cypress. You can check out the use cases for plugins from
+                the cypress official docs.
+  4. Support – This folder contains index.js and commands.js files. This index.js file is run before
+                every single spec file. The support folder is a great place to put reusable behavior such as 
+                custom commands or global overrides that you want to be applied and available to all your 
+                spec files.
+
+cypress methods:-
+
+
+
