@@ -1,14 +1,4 @@
-
-
 //DTAEPICKER
-
-xdescribe('verify the date picker', () => {
-    it('validate the date paicker', () => {
-
-        cy.visit('https://demo.automationtesting.in/Datepicker.html')
-    })
-})
-//================================================================================
 describe('verify the date picker', () => {
     let text =
         it.only('validate the date paicker', () => {
@@ -52,12 +42,4 @@ describe('verify the date picker', () => {
             }
             selectdate()
         })
-})
-
-//================================================================================
-xdescribe('verify the date picker', () => {
-    it('validate the date paicker', () => {
-
-        cy.visit('https://book.spicejet.com/search.aspx')
-    })
 })

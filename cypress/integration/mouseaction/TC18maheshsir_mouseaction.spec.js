@@ -12,15 +12,15 @@
 
 describe('Verify the mouse actions',()=>{
 
-    // beforeEach(()=>{
-    //     cy.visit('https://testpages.herokuapp.com/styled/drag-drop-javascript.html')
-    // })
-    // it('verify the scroll action',()=>{
-    //     cy.get('[href="https://eviltester.com"]').scrollIntoView().click()
-    // })
-    // it.only('removing black value',()=>{
-    //     cy.get('[href="https://eviltester.com"]').invoke('removeAttr','target').click()
-    // })
+    beforeEach(()=>{
+        cy.visit('https://testpages.herokuapp.com/styled/drag-drop-javascript.html')
+    })
+    it('verify the scroll action',()=>{
+        cy.get('[href="https://eviltester.com"]').scrollIntoView().click()
+    })
+    it.only('removing blanck value',()=>{
+        cy.get('[href="https://eviltester.com"]').invoke('removeAttr','target').click()
+    })
 
 
 
@@ -45,29 +45,29 @@ describe('Verify the mouse actions',()=>{
     //     cy.get('#droppable2 >p').should('have.text','Dropped!')
    // })
    
-   //mousehover
-   it('verify the mouseover functionality', () => {
-    cy.visit('https://www.amazon.com/')
-    cy.get('[data-csa-c-content-id="nav_ya_signin"]').trigger('mouseover')
-    cy.contains('Find a List or Registry').click()
-    cy.url().should('include', 'nav_ListFlyout_find')
-    //https://www.amazon.com/hz/wishlist/intro
-})
+//    //mousehover
+//    it('verify the mouseover functionality', () => {
+//     cy.visit('https://www.amazon.com/')
+//     cy.get('[data-csa-c-content-id="nav_ya_signin"]').trigger('mouseover')
+//     cy.contains('Find a List or Registry').click()
+//     cy.url().should('include', 'nav_ListFlyout_find')
+//     //https://www.amazon.com/hz/wishlist/intro
+// })
 
-it.only('verify the mouse over functionality',()=>{
-    cy.wait(6000)
-    cy.visit('https://www.amazon.com/')
-    cy.get('[data-csa-c-slot-id="nav-link-accountList"]').trigger('mouseover')
-    cy.get('.nav-link span').last().should('have.text','Music Library')
+// it.only('verify the mouse over functionality',()=>{
+//     cy.wait(6000)
+//     cy.visit('https://www.amazon.com/')
+//     cy.get('[data-csa-c-slot-id="nav-link-accountList"]').trigger('mouseover')
+//     cy.get('.nav-link span').last().should('have.text','Music Library')
     
-    cy.get('.nav-link span').last().click({force:true})
-    cy.wait(4000)
-    cy.url().should('include','https://music.amazon.com/?ref=nav_youraccount_cldplyr')
+//     cy.get('.nav-link span').last().click({force:true})
+//     cy.wait(4000)
+//     cy.url().should('include','https://music.amazon.com/?ref=nav_youraccount_cldplyr')
    
     
 
 
-})
+// })
    
 
 })
